@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tino — Política de privacidad</title>
+<style>
+  :root { --tinta:#1d2a2a; --suave:#5b6b6b; --marca:#0f5f5c; --fondo:#f6f4ef; --tarjeta:#ffffff; --borde:#e2ded4; }
+  @media (prefers-color-scheme: dark) {
+    :root { --tinta:#e8eeed; --suave:#a6b3b2; --marca:#6fc9c2; --fondo:#121716; --tarjeta:#1b2221; --borde:#2c3635; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--fondo); color:var(--tinta); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; padding:32px 16px; }
+  main { max-width:720px; margin:0 auto; background:var(--tarjeta); border:1px solid var(--borde); border-radius:16px; padding:32px clamp(20px,5vw,48px); }
+  h1 { font-size:1.8rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; color:var(--marca); }
+  .fecha, .idiomas { color:var(--suave); font-size:.9rem; margin:0; }
+  .idiomas { margin-bottom:24px; }
+  a { color:var(--marca); }
+  .resumen { background:var(--fondo); border-radius:12px; padding:16px 20px; margin:24px 0; }
+  .resumen p { margin:0; }
+  ul { padding-left:1.2em; }
+  li { margin:4px 0; }
+  hr { border:0; border-top:1px solid var(--borde); margin:48px 0; }
+</style>
+</head>
+<body>
+<main>
+
+<!-- ============================ ESPAÑOL ============================ -->
+<article id="es" lang="es">
+<h1>Política de privacidad de Tino</h1>
+<p class="fecha">Vigente desde el 27 de septiembre de 2026</p>
+<p class="idiomas">Español · <a href="#en">English</a> · <a href="#pt">Português</a></p>
+
+<div class="resumen">
+<p><strong>En pocas palabras:</strong> Tino guarda tus datos solo en tu teléfono. No tenemos servidores, no creamos cuentas, no usamos publicidad ni analítica, y nadie —ni siquiera nosotros— puede ver tus movimientos. La única vez que algo sale de tu teléfono es cuando <em>tú</em> decides hacer un respaldo en tu propio Google Drive, y ese archivo viaja cifrado con una contraseña que solo tú conoces.</p>
+</div>
+
+<h2>1. Quién es responsable</h2>
+<p>Tino es una aplicación desarrollada por Rosmel Sifuentes Acuña ("nosotros"). Puedes escribirnos a soporte.tinoapp@gmail.com.</p>
+
+<h2>2. Qué datos maneja Tino y dónde se guardan</h2>
+<p>Tino funciona sin conexión a internet. Todo lo que registras se guarda en una base de datos <strong>cifrada</strong> dentro de tu teléfono:</p>
+<ul>
+  <li>Movimientos (gastos e ingresos): monto, moneda, fecha, categoría, comercio y notas.</li>
+  <li>Categorías, reglas de categorización, presupuestos, metas de ahorro, movimientos recurrentes, cuentas por pagar y cuentas por cobrar.</li>
+  <li>Archivos que tú adjuntes (imágenes o PDF), guardados en el almacenamiento privado de la app.</li>
+  <li>Tus preferencias (tema, idioma, recordatorios, bloqueo).</li>
+</ul>
+<p>Estos datos <strong>no se envían</strong> a nosotros ni a ningún tercero. No los vendemos, no los compartimos y no los usamos para publicidad. La clave que cifra la base de datos se genera en tu teléfono y queda protegida por el almacén de claves seguro de Android.</p>
+
+<h2>3. Permisos que pide Tino y para qué</h2>
+<ul>
+  <li><strong>Notificaciones:</strong> para enviarte avisos que tú activas (recordatorio diario, alertas de presupuesto y recordatorios de pagos y cobros).</li>
+  <li><strong>Alarmas exactas e inicio del teléfono:</strong> para que esos recordatorios suenen a la hora que elegiste, también después de reiniciar el teléfono.</li>
+  <li><strong>Acceso a notificaciones (opcional y desactivado por defecto):</strong> solo si tú lo activas en Ajustes, Tino lee las notificaciones de las apps de pagos y bancos compatibles para registrar tus ingresos automáticamente. Tino ignora las notificaciones de cualquier otra app. El texto se procesa dentro del teléfono y nunca se envía a ningún lado. Puedes retirar este permiso cuando quieras desde los ajustes de Android.</li>
+  <li><strong>Internet:</strong> se usa únicamente para el respaldo en Google Drive descrito abajo y, cuando esté disponible, para las compras dentro de la app a través de Google Play.</li>
+  <li><strong>Huella o desbloqueo del teléfono (opcional):</strong> si activas el bloqueo, Tino le pide a Android que confirme tu identidad. Tino nunca recibe ni guarda tu huella; solo recibe un "sí" o un "no".</li>
+</ul>
+
+<h2>4. Respaldo cifrado (opcional)</h2>
+<p>Puedes crear un respaldo de tus datos de dos formas, y en ambas lo inicias tú:</p>
+<ul>
+  <li><strong>Archivo local:</strong> se guarda donde tú elijas en tu teléfono.</li>
+  <li><strong>Google Drive:</strong> se sube a <strong>tu propia</strong> cuenta de Google Drive, en una carpeta privada de la app que solo Tino puede ver. Para esto inicias sesión con Google; Tino solo pide permiso sobre esa carpeta, no sobre el resto de tu Drive.</li>
+</ul>
+<p>En los dos casos el archivo se cifra <strong>en tu teléfono, antes de salir</strong>, con una contraseña que tú eliges (AES-256-GCM). Ni Google, ni nosotros, ni nadie más puede leerlo sin esa contraseña. Nosotros no tenemos servidores: el archivo va directo de tu teléfono a tu Drive. Si olvidas la contraseña, no podemos recuperar el respaldo.</p>
+<p>El uso de Google Drive se rige además por la <a href="https://policies.google.com/privacy">política de privacidad de Google</a>.</p>
+
+<h2>5. Compras</h2>
+<p>Si Tino ofrece funciones de pago, la compra se procesa a través de Google Play. Nosotros no recibimos ni guardamos tus datos de pago; solo recibimos de Google la confirmación de que la compra existe.</p>
+
+<h2>6. Lo que Tino no hace</h2>
+<ul>
+  <li>No tiene servidores propios ni te pide crear una cuenta.</li>
+  <li>No incluye publicidad, herramientas de analítica ni rastreadores de terceros.</li>
+  <li>No accede a tu ubicación, contactos, cámara, micrófono, mensajes SMS ni a tus cuentas bancarias.</li>
+  <li>No mueve dinero: solo registra lo que tú anotas o, si lo activas, lo que te notifican tus apps de pago.</li>
+</ul>
+
+<h2>7. Cómo borrar tus datos</h2>
+<ul>
+  <li>Puedes borrar cualquier movimiento o registro desde la app.</li>
+  <li>Al desinstalar Tino, Android borra todos sus datos del teléfono. No quedan copias en ningún servidor porque no existen.</li>
+  <li>Para borrar tus respaldos en Google Drive, elimínalos desde la pantalla de respaldo de Tino, o desde Google Drive → Configuración → Administrar aplicaciones → Tino → "Borrar datos ocultos de la app".</li>
+</ul>
+
+<h2>8. Niños</h2>
+<p>Tino no está dirigida a menores de 13 años y no recopila a sabiendas datos de ellos.</p>
+
+<h2>9. Cambios en esta política</h2>
+<p>Si cambiamos esta política, publicaremos la nueva versión en esta misma página con su fecha de vigencia. Si un cambio afecta cómo se tratan tus datos, te lo avisaremos dentro de la app.</p>
+
+<h2>10. Contacto</h2>
+<p>Para cualquier consulta sobre privacidad: soporte.tinoapp@gmail.com.</p>
+</article>
+
+<hr>
+
+<!-- ============================ ENGLISH ============================ -->
+<article id="en" lang="en">
+<h1>Tino Privacy Policy</h1>
+<p class="fecha">Effective September 27, 2026</p>
+<p class="idiomas"><a href="#es">Español</a> · English · <a href="#pt">Português</a></p>
+
+<div class="resumen">
+<p><strong>In short:</strong> Tino keeps your data only on your phone. We have no servers, no accounts, no ads and no analytics, and nobody — not even us — can see your transactions. The only time anything leaves your phone is when <em>you</em> choose to back up to your own Google Drive, and that file is encrypted with a password only you know.</p>
+</div>
+
+<h2>1. Who is responsible</h2>
+<p>Tino is developed by Rosmel Sifuentes Acuña ("we"). You can reach us at soporte.tinoapp@gmail.com.</p>
+
+<h2>2. What data Tino handles and where it is stored</h2>
+<p>Tino works offline. Everything you record is stored in an <strong>encrypted</strong> database on your phone:</p>
+<ul>
+  <li>Transactions (expenses and income): amount, currency, date, category, merchant and notes.</li>
+  <li>Categories, categorization rules, budgets, savings goals, recurring transactions, bills to pay and money owed to you.</li>
+  <li>Files you attach (images or PDF), kept in the app's private storage.</li>
+  <li>Your preferences (theme, language, reminders, lock).</li>
+</ul>
+<p>This data is <strong>not sent</strong> to us or to any third party. We do not sell it, share it or use it for advertising. The key that encrypts the database is generated on your phone and protected by the Android Keystore.</p>
+
+<h2>3. Permissions and why Tino asks for them</h2>
+<ul>
+  <li><strong>Notifications:</strong> to send you the alerts you turn on (daily reminder, budget alerts, bill and collection reminders).</li>
+  <li><strong>Exact alarms and device boot:</strong> so those reminders fire at the time you chose, including after a restart.</li>
+  <li><strong>Notification access (optional, off by default):</strong> only if you enable it in Settings, Tino reads notifications from supported payment and banking apps to log your income automatically. Notifications from any other app are ignored. The text is processed on the device and never sent anywhere. You can revoke this permission at any time in Android settings.</li>
+  <li><strong>Internet:</strong> used only for the Google Drive backup described below and, when available, for in-app purchases through Google Play.</li>
+  <li><strong>Fingerprint or device unlock (optional):</strong> if you turn on the app lock, Tino asks Android to confirm it's you. Tino never receives or stores your fingerprint — only a yes or no.</li>
+</ul>
+
+<h2>4. Encrypted backup (optional)</h2>
+<p>You can back up your data in two ways, both started by you:</p>
+<ul>
+  <li><strong>Local file:</strong> saved wherever you choose on your phone.</li>
+  <li><strong>Google Drive:</strong> uploaded to <strong>your own</strong> Google Drive, in a private app folder only Tino can see. You sign in with Google; Tino only requests access to that folder, not the rest of your Drive.</li>
+</ul>
+<p>In both cases the file is encrypted <strong>on your phone, before it leaves</strong>, with a password you choose (AES-256-GCM). Neither Google, nor we, nor anyone else can read it without that password. We have no servers: the file goes straight from your phone to your Drive. If you forget the password, we cannot recover the backup.</p>
+<p>Your use of Google Drive is also governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+
+<h2>5. Purchases</h2>
+<p>If Tino offers paid features, purchases are processed by Google Play. We never receive or store your payment details; we only receive Google's confirmation that the purchase exists.</p>
+
+<h2>6. What Tino does not do</h2>
+<ul>
+  <li>It has no servers of its own and never asks you to create an account.</li>
+  <li>It includes no ads, analytics tools or third-party trackers.</li>
+  <li>It does not access your location, contacts, camera, microphone, SMS messages or bank accounts.</li>
+  <li>It does not move money: it only records what you enter or, if you enable it, what your payment apps notify you about.</li>
+</ul>
+
+<h2>7. Deleting your data</h2>
+<ul>
+  <li>You can delete any transaction or record from within the app.</li>
+  <li>Uninstalling Tino makes Android delete all of its data from the phone. No copies remain on any server, because there are none.</li>
+  <li>To delete your Google Drive backups, remove them from Tino's backup screen, or go to Google Drive → Settings → Manage apps → Tino → "Delete hidden app data".</li>
+</ul>
+
+<h2>8. Children</h2>
+<p>Tino is not directed at children under 13 and does not knowingly collect their data.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>If we change this policy, we will publish the new version on this page with its effective date. If a change affects how your data is handled, we will let you know inside the app.</p>
+
+<h2>10. Contact</h2>
+<p>For any privacy question: soporte.tinoapp@gmail.com.</p>
+</article>
+
+<hr>
+
+<!-- ============================ PORTUGUÊS ============================ -->
+<article id="pt" lang="pt">
+<h1>Política de privacidade do Tino</h1>
+<p class="fecha">Em vigor desde 27 de setembro de 2026</p>
+<p class="idiomas"><a href="#es">Español</a> · <a href="#en">English</a> · Português</p>
+
+<div class="resumen">
+<p><strong>Em poucas palavras:</strong> o Tino guarda seus dados apenas no seu celular. Não temos servidores, não criamos contas, não usamos anúncios nem análises, e ninguém — nem nós — pode ver suas movimentações. A única vez que algo sai do seu celular é quando <em>você</em> decide fazer um backup no seu próprio Google Drive, e esse arquivo é criptografado com uma senha que só você conhece.</p>
+</div>
+
+<h2>1. Quem é o responsável</h2>
+<p>O Tino é desenvolvido por Rosmel Sifuentes Acuña ("nós"). Você pode nos escrever em soporte.tinoapp@gmail.com.</p>
+
+<h2>2. Quais dados o Tino trata e onde ficam</h2>
+<p>O Tino funciona sem internet. Tudo o que você registra fica em um banco de dados <strong>criptografado</strong> no seu celular:</p>
+<ul>
+  <li>Movimentações (gastos e receitas): valor, moeda, data, categoria, estabelecimento e notas.</li>
+  <li>Categorias, regras de categorização, orçamentos, metas de economia, movimentações recorrentes, contas a pagar e contas a receber.</li>
+  <li>Arquivos que você anexar (imagens ou PDF), guardados no armazenamento privado do app.</li>
+  <li>Suas preferências (tema, idioma, lembretes, bloqueio).</li>
+</ul>
+<p>Esses dados <strong>não são enviados</strong> para nós nem para terceiros. Não os vendemos, não os compartilhamos e não os usamos para publicidade. A chave que criptografa o banco é gerada no seu celular e protegida pelo Android Keystore.</p>
+
+<h2>3. Permissões e para que servem</h2>
+<ul>
+  <li><strong>Notificações:</strong> para enviar os avisos que você ativar (lembrete diário, alertas de orçamento e lembretes de pagamentos e cobranças).</li>
+  <li><strong>Alarmes exatos e inicialização do aparelho:</strong> para que esses lembretes toquem na hora escolhida, inclusive depois de reiniciar.</li>
+  <li><strong>Acesso às notificações (opcional e desativado por padrão):</strong> somente se você ativar em Ajustes, o Tino lê as notificações de apps de pagamento e bancos compatíveis para registrar suas receitas automaticamente. Notificações de outros apps são ignoradas. O texto é processado no aparelho e nunca é enviado. Você pode revogar essa permissão a qualquer momento nas configurações do Android.</li>
+  <li><strong>Internet:</strong> usada apenas para o backup no Google Drive descrito abaixo e, quando disponível, para compras no app pelo Google Play.</li>
+  <li><strong>Digital ou desbloqueio do aparelho (opcional):</strong> se você ativar o bloqueio, o Tino pede ao Android que confirme sua identidade. O Tino nunca recebe nem guarda sua digital — só um sim ou não.</li>
+</ul>
+
+<h2>4. Backup criptografado (opcional)</h2>
+<p>Você pode fazer backup de duas formas, sempre iniciadas por você:</p>
+<ul>
+  <li><strong>Arquivo local:</strong> salvo onde você escolher no celular.</li>
+  <li><strong>Google Drive:</strong> enviado para o <strong>seu próprio</strong> Google Drive, em uma pasta privada do app que só o Tino vê. Você entra com o Google; o Tino pede acesso apenas a essa pasta, não ao resto do seu Drive.</li>
+</ul>
+<p>Nos dois casos o arquivo é criptografado <strong>no seu celular, antes de sair</strong>, com uma senha escolhida por você (AES-256-GCM). Nem o Google, nem nós, nem ninguém consegue lê-lo sem essa senha. Não temos servidores: o arquivo vai direto do seu celular para o seu Drive. Se você esquecer a senha, não podemos recuperar o backup.</p>
+<p>O uso do Google Drive também segue a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
+
+<h2>5. Compras</h2>
+<p>Se o Tino oferecer funções pagas, a compra é processada pelo Google Play. Não recebemos nem guardamos seus dados de pagamento; recebemos do Google apenas a confirmação de que a compra existe.</p>
+
+<h2>6. O que o Tino não faz</h2>
+<ul>
+  <li>Não tem servidores próprios nem pede que você crie uma conta.</li>
+  <li>Não inclui anúncios, ferramentas de análise nem rastreadores de terceiros.</li>
+  <li>Não acessa sua localização, contatos, câmera, microfone, SMS nem suas contas bancárias.</li>
+  <li>Não movimenta dinheiro: apenas registra o que você anota ou, se ativar, o que seus apps de pagamento notificam.</li>
+</ul>
+
+<h2>7. Como apagar seus dados</h2>
+<ul>
+  <li>Você pode apagar qualquer movimentação ou registro dentro do app.</li>
+  <li>Ao desinstalar o Tino, o Android apaga todos os dados dele do celular. Não restam cópias em servidores, porque eles não existem.</li>
+  <li>Para apagar seus backups no Google Drive, remova-os na tela de backup do Tino ou em Google Drive → Configurações → Gerenciar apps → Tino → "Excluir dados ocultos do app".</li>
+</ul>
+
+<h2>8. Crianças</h2>
+<p>O Tino não é direcionado a menores de 13 anos e não coleta intencionalmente dados deles.</p>
+
+<h2>9. Alterações nesta política</h2>
+<p>Se alterarmos esta política, publicaremos a nova versão nesta página com a data de vigência. Se uma alteração afetar o tratamento dos seus dados, avisaremos dentro do app.</p>
+
+<h2>10. Contato</h2>
+<p>Para qualquer dúvida sobre privacidade: soporte.tinoapp@gmail.com.</p>
+</article>
+
+</main>
+</body>
+</html>
